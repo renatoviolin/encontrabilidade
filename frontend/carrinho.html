@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Carrinho — Loja Fatec Demo</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛒</text></svg>">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div class="topbar">Checkout mock — nenhum pagamento real</div>
+<header class="site"><div class="wrap bar">
+  <a class="logo" href="index.html">fatec<span>·shop</span></a>
+  <nav class="main"><a href="index.html">← Continuar comprando</a></nav>
+</div></header>
+<div class="wrap">
+<h2>Seu carrinho</h2>
+<div id="itens"></div>
+<div class="summary">
+  <div id="total-line">Total: R$ 0,00</div>
+  <div class="row" style="margin:0">
+    <button class="btn-ghost btn" id="limpar">Limpar</button>
+    <button class="btn" id="finalizar">Finalizar compra (mock)</button>
+  </div>
+</div>
+<div id="pedido"></div>
+</div>
+<footer>Loja modelo Fatec • dados e checkout via back <code>GET /api/products</code> + <code>POST /api/checkout</code></footer>
+
+<script src="assets/js/config.js"></script>
+<script type="module" src="assets/js/pages/cart.js"></script>
+</body>
+</html>

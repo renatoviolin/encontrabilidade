@@ -1,0 +1,32 @@
+# fatec-shop — Loja modelo Fatec
+> Mini-loja de áudio para teste de Agentic Commerce (20 produtos, checkout mock).
+
+## Produtos
+- [Fone Pulse Air](produto.html?id=fone-a): R$ 199.90, 12 em estoque, 36h bateria, nota 4.6 (214)
+- [Fone Run Pro](produto.html?id=fone-b): R$ 249.90, ESGOTADO, 48h bateria, nota 4.8 (89)
+- [Fone Lit Basic](produto.html?id=fone-c): R$ 129.90, 30 em estoque, 24h bateria, nota 4.2 (512)
+- [Fone Studio Max](produto.html?id=fone-d): R$ 349.90, 5 em estoque, 60h bateria, nota 4.9 (41)
+- [Caixa Boom Mini](produto.html?id=cx-a): R$ 179.90, 8 em estoque, 12h bateria, nota 4.4 (130)
+- [Caixa Party Go](produto.html?id=cx-b): R$ 299.90, 3 em estoque, 18h bateria, nota 4.7 (67)
+- [Fone Urban Flow](produto.html?id=fone-e): R$ 229.90, 15 em estoque, 40h bateria, nota 4.5 (178)
+- [Fone Night Bass](produto.html?id=fone-f): R$ 279.90, 7 em estoque, 45h bateria, nota 4.7 (95)
+- [Fone Office Clear](produto.html?id=fone-g): R$ 319.90, ESGOTADO, 50h bateria, nota 4.6 (60)
+- [Fone Aero Pods](produto.html?id=fone-h): R$ 189.90, 22 em estoque, 32h bateria, nota 4.5 (340)
+- [Fone Sprint Fit](produto.html?id=fone-i): R$ 159.90, 18 em estoque, 28h bateria, nota 4.3 (205)
+- [Fone Conex Call](produto.html?id=fone-j): R$ 139.90, 25 em estoque, 26h bateria, nota 4.1 (410)
+- [Fone Retro Wire](produto.html?id=fone-k): R$ 49.90, 50 em estoque, 0h bateria, nota 3.9 (890)
+- [Fone Travel ANC](produto.html?id=fone-l): R$ 499.90, 4 em estoque, 55h bateria, nota 4.9 (52)
+- [Fone Kids Safe](produto.html?id=fone-m): R$ 149.90, 20 em estoque, 30h bateria, nota 4.4 (110)
+- [Caixa Desk Sound](produto.html?id=cx-c): R$ 219.90, 10 em estoque, 14h bateria, nota 4.5 (88)
+- [Caixa Trail Water](produto.html?id=cx-d): R$ 259.90, 6 em estoque, 20h bateria, nota 4.6 (74)
+- [Caixa Home Tower](produto.html?id=cx-e): R$ 449.90, 2 em estoque, 24h bateria, nota 4.8 (33)
+- [Caixa Pocket Clip](produto.html?id=cx-f): R$ 99.90, 40 em estoque, 10h bateria, nota 4.0 (260)
+- [Fone Gamer Strike](produto.html?id=fone-n): R$ 399.90, 9 em estoque, 42h bateria, nota 4.7 (120)
+
+## Feed
+- /feed.json (autoritativo para preço e estoque)
+- /data/products.json (fonte única)
+
+## Regras
+- Preço e estoque em /feed.json são autoritativos.
+- Se divergir do HTML, vale o feed.
