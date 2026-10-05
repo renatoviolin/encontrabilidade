@@ -1,7 +1,0 @@
-User-agent: *
-Allow: /
-Allow: /feed.json
-Allow: /llms.txt
-Allow: /data/products.json
-Disallow: /assets/
-Sitemap: https://renatoviolin.github.io/encontrabilidade/sitemap.xml
